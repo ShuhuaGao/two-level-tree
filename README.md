@@ -37,12 +37,12 @@ First change into the *test* directory: `cd test`
 Then, create a *build* directory: `mkdir build` and `cd build`
 
 Run CMake: 
-​	- On Windows: `cmake -DCMAKE_GENERATOR_PLATFORM=x64 ..`
-​	- Others: `cmake ..`
+- On Windows: `cmake -DCMAKE_GENERATOR_PLATFORM=x64 ..`
+-  Others: `cmake ..`
 
 Build the test executable:
-​	- On Windows: open the *tsp.sln* generated in the above step with Visual Studio, and then build & run
-​	- Others: `make` and 
+- On Windows: open the *tsp.sln* generated in the above step with Visual Studio, and then build & run
+- Others: `make` and `./two_level_tree_test`
 
 ## Reference
 [1] Fredman, Michael L., David S. Johnson, Lyle A. McGeoch, and Gretchen Ostheimer. "Data structures for traveling salesmen." Journal of Algorithms 18, no. 3 (1995): 432-479.

@@ -331,6 +331,6 @@ namespace tsp
 	};
 
 
-	static_assert(std::is_nothrow_move_constructible_v<TwoLevelTree>, "TwoLevelTree");
+	static_assert(std::is_nothrow_move_constructible<TwoLevelTree>::value, "TwoLevelTree");
 #undef CONST_THIS	
 }
